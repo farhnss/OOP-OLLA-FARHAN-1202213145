@@ -30,7 +30,7 @@ public class Waiter implements Runnable {
         System.out.println("==========================================================");
         System.out.println("Customer ID: " + this.customerID);
         System.out.println("Numbeer of Food: " + this.orderQty);
-        System.out.println("Total Price: " + this.orderQty * FoodPrice);
+        System.out.println("Total Price: Rp." + this.orderQty * FoodPrice);
         System.out.println("==========================================================");
     }
 
